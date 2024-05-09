@@ -5,6 +5,6 @@
   tasks:
 
     - name: Install apache package
-      apt:
+      yum:
         name: apache2
-
+        state: latest
